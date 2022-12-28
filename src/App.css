@@ -12,6 +12,14 @@ a{
   text-decoration: none;
 }
 
+p{
+  color: hsl(28, 10%, 53%);
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: hsl(25, 47%, 15%);
+}
+
 img{
   width: 100%;
   object-fit: contain;
@@ -20,14 +28,21 @@ img{
 .App{
   width: 100%;
   font-size: 18px;
-  font-family: DM Sans;
+  font-family: "DM Sans", sans-serif;
   padding: 50px 0 50px 0;
 }
 
 .container{
   width: 100%;
   background-color: hsl(30, 74%, 88%);
-  padding: 10px;
+  padding: 120px 0 120px 0;
   display: flex;
   justify-content: center;
+  
+}
+
+.banner{
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr;
 }
