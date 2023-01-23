@@ -1,0 +1,405 @@
+@media only screen and (min-width:1000px)
+{
+    .planDiv{
+        width: 100%;
+        border: 2px solid white;
+        font-family: 'Ubuntu';
+    }
+
+    
+  
+    /* monthly styling section */
+    .planDiv .monthly{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .planDiv .monthly .arcade{
+        padding: 15px;
+        border: 2px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    
+    .planDiv .monthly .arcade .image{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 40px;
+    }
+
+    .planDiv .monthly .arcade .desc .words{
+        color: hsl(213, 96%, 18%);
+        font-weight: bold;
+    }
+    .planDiv .monthly .arcade .desc .price{
+        color: hsl(231, 11%, 63%);
+    }
+
+
+    .planDiv .monthly .advance{
+        padding: 15px;
+        border: 2px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    
+    .planDiv .monthly .advance .image{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 40px;
+    }
+
+    .planDiv .monthly .advance .desc .words{
+        color: hsl(213, 96%, 18%);
+        font-weight: bold;
+    }
+    .planDiv .monthly .advance .desc .price{
+        color: hsl(231, 11%, 63%);
+    }
+
+
+    .planDiv .monthly .pro{
+        padding: 15px;
+        border: 2px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    
+    .planDiv .monthly .pro .image{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 40px;
+    }
+
+    .planDiv .monthly .pro .desc .words{
+        color: hsl(213, 96%, 18%);
+        font-weight: bold;
+    }
+    .planDiv .monthly .pro .desc .price{
+        color: hsl(231, 11%, 63%);
+    }
+
+
+ /* yearly styling section*/
+ 
+ .planDiv .yearly{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.planDiv .yearly .arcade{
+    padding: 15px;
+    border: 2px solid hsl(231, 11%, 63%);
+    border-radius: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.planDiv .yearly .arcade .image{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.planDiv .yearly .arcade .desc .words{
+    color: hsl(213, 96%, 18%);
+    font-weight: bold;
+}
+.planDiv .yearly .arcade .desc .price{
+    color: hsl(231, 11%, 63%);
+}
+.planDiv .yearly .arcade .desc .detail{
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.planDiv .yearly .advance{
+    padding: 15px;
+    border: 2px solid hsl(231, 11%, 63%);
+    border-radius: 8px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.planDiv .yearly .advance .image{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.planDiv .yearly .advance .desc .words{
+    color: hsl(213, 96%, 18%);
+    font-weight: bold;
+}
+.planDiv .yearly .advance .desc .price{
+    color: hsl(231, 11%, 63%);
+}
+.planDiv .yearly .advance .desc .detail{
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+
+.planDiv .yearly .pro{
+    padding: 15px;
+    border: 2px solid hsl(231, 11%, 63%);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.planDiv .yearly .pro .image{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.planDiv .yearly .pro .desc .words{
+    color: hsl(213, 96%, 18%);
+    font-weight: bold;
+}
+.planDiv .yearly .pro .desc .price{
+    color: hsl(231, 11%, 63%);
+}
+.planDiv .yearly .pro .desc .detail{
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+
+/* button section */
+    .planDiv .switch-btn{
+        width: 100%;
+        padding: 10px;
+        margin-top: 30px;
+        background-color: hsl(231,100%, 99%);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .planDiv .switch-btn .month{
+        margin-right: 20px;
+        color: hsl(229, 24%, 87%);
+    }
+    .planDiv .switch-btn .active{
+        color:hsl(213, 96%, 18%);
+        font-weight:bold;
+    }
+
+
+    .planDiv .switch-btn .switch{
+        margin-right: 20px;
+    }
+    .planDiv .switch-btn .switch #sw-btn{
+       background-color: hsl(213, 96%, 18%);
+       height: 20px;
+    }
+
+    .planDiv .switch-btn .year{
+        color: hsl(231, 11%, 63%);
+    }
+
+
+}
+
+
+/*----------------------------------------------------------*/
+
+
+@media only screen and (max-width:999px){
+    .planDiv{
+        width: 100%;
+        border: 2px solid white;
+        font-family: 'Ubuntu';
+    }
+  
+    /* monthly styling section */
+    .planDiv .monthly{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .planDiv .monthly .arcade{
+        padding: 15px;
+        border: 2px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        display: flex;
+    }
+    
+    .planDiv .monthly .arcade .image{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .planDiv .monthly .arcade .desc .words{
+        color: hsl(213, 96%, 18%);
+        font-weight: bold;
+    }
+    .planDiv .monthly .arcade .desc .price{
+        color: hsl(231, 11%, 63%);
+    }
+
+    .planDiv .monthly .advance{
+        padding: 15px;
+        border: 2px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        display: flex;
+    }
+    
+    .planDiv .monthly .advance .image{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .planDiv .monthly .advance .desc .words{
+        color: hsl(213, 96%, 18%);
+        font-weight: bold;
+    }
+    .planDiv .monthly .advance .desc .price{
+        color: hsl(231, 11%, 63%);
+    }
+
+    .planDiv .monthly .pro{
+        padding: 15px;
+        border: 2px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        margin-right: 20px;
+        cursor: pointer;
+        display: flex;
+    }
+    
+    .planDiv .monthly .pro .image{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .planDiv .monthly .pro .desc .words{
+        color: hsl(213, 96%, 18%);
+        font-weight: bold;
+    }
+    .planDiv .monthly .pro .desc .price{
+        color: hsl(231, 11%, 63%);
+    }
+
+
+    /*yearly styling section*/
+    .planDiv .yearly{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .planDiv .yearly .arcade{
+        padding: 15px;
+        border: 2px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        display: flex;
+    }
+    
+    .planDiv .yearly .arcade .image{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .planDiv .yearly .arcade .desc .words{
+        color: hsl(213, 96%, 18%);
+        font-weight: bold;
+    }
+    .planDiv .yearly .arcade .desc .price{
+        color: hsl(231, 11%, 63%);
+    }
+
+    .planDiv .yearly .advance{
+        padding: 15px;
+        border: 2px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        display: flex;
+    }
+    
+    .planDiv .yearly .advance .image{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .planDiv .yearly .advance .desc .words{
+        color: hsl(213, 96%, 18%);
+        font-weight: bold;
+    }
+    .planDiv .yearly .advance .desc .price{
+        color: hsl(231, 11%, 63%);
+    }
+
+    .planDiv .yearly .pro{
+        padding: 15px;
+        border: 2px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        margin-right: 20px;
+        cursor: pointer;
+        display: flex;
+    }
+    
+    .planDiv .yearly .pro .image{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .planDiv .yearly .pro .desc .words{
+        color: hsl(213, 96%, 18%);
+        font-weight: bold;
+    }
+    .planDiv .yearly .pro .desc .price{
+        color: hsl(231, 11%, 63%);
+    }
+
+
+    /*switch button styling*/
+    .planDiv .switch-btn{
+        width: 100%;
+        padding: 10px;
+        margin-top: 30px;
+        background-color: hsl(231,100%, 99%);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .planDiv .switch-btn .month{
+        margin-right: 20px;
+        color: hsl(229, 24%, 87%);
+    }
+    .planDiv .switch-btn .active{
+        color:hsl(213, 96%, 18%);
+        font-weight:bold;
+    }
+
+
+    .planDiv .switch-btn .switch{
+        margin-right: 20px;
+    }
+    .planDiv .switch-btn .switch #sw-btn{
+       background-color: hsl(213, 96%, 18%);
+       height: 20px;
+    }
+
+    .planDiv .switch-btn .year{
+        color: hsl(231, 11%, 63%);
+    }
+
+}

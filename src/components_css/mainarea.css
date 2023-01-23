@@ -1,0 +1,150 @@
+@media only screen and (min-width:1000px)
+{
+.form_body{
+    width: 65%;
+    padding: 40px 80px 20px 55px;   
+    font-family: "Ubuntu";
+}
+.form_body .headings{
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.form_body .headings h1{
+    color: hsl(213, 96%, 18%);
+}
+.form_body .headings p{
+    color: hsl(231, 11%, 63%);
+}
+
+.form_body .buttons-div{
+    height: 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form_body .buttons-div .backward-btn-div{
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.form_body .buttons-div .backward-btn-div button{
+    width: 120px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    color: hsl(231, 11%, 63%);
+}
+
+.form_body .buttons-div .forward-btn-div{
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.form_body .buttons-div .forward-btn-div button{
+    width: 120px;
+    padding: 10px;
+    background-color: hsl(213, 96%, 18%);
+    cursor: pointer;
+    font-weight: bold;
+    color: hsl(231, 11%, 63%);
+    border-radius: 8px;
+}
+
+
+}/*desktop view*/
+
+
+/*-----------------------------------------------------------------------*/
+
+
+@media only screen and (max-width:999px){
+
+    .form_body{
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 8px;
+        padding: 40px 30px 20px 30px;   
+        font-family: "Ubuntu";
+        background-color: #ffffff;
+        position: relative;
+        bottom: 170px;
+        z-index: 2;
+        margin-bottom: -170px;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    }
+
+    .form_body .buttons-div{
+        display: none;
+    }
+
+    .form_body .headings{
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+    .form_body .headings h1{
+        color: hsl(213, 96%, 18%);
+    }
+    .form_body .headings p{
+        color: hsl(231, 11%, 63%);
+    }
+
+}
+
+
+/*-----------------------------------------------------------*/
+
+
+@media only screen and (max-width:768px){
+
+    .form_body{
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 8px;
+        padding: 40px 30px 20px 30px;   
+        font-family: "Ubuntu";
+        background-color: #ffffff;
+        position: relative;
+        bottom: 150px;
+        margin-bottom: -150px;
+        z-index: 2;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    }
+
+}
+
+
+/*-----------------------------------------------------------*/
+
+
+@media only screen and (max-width:500px){
+
+    .form_body{
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 8px;
+        padding: 40px 20px 30px 20px;   
+        font-family: "Ubuntu";
+        background-color: #ffffff;
+        position: relative;
+        bottom: 40px;
+        z-index: 2;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+        margin-bottom: -40px;
+    }
+
+    .form_body .headings h1{
+        color: hsl(213, 96%, 18%);
+        margin-bottom: 8px;
+    }
+
+    .form_body .headings p{
+        color: hsl(231, 11%, 63%);
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+}

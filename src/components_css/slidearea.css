@@ -1,0 +1,202 @@
+@media only screen and (min-width:1000px)
+{
+.sidebar_body{
+    width: 35%;
+    height: 100%;
+    position: relative;
+}
+
+.sidebar_body #mobile-img{
+    display: none;
+}
+
+.selectors{
+    position: absolute;
+    top: 6%;
+    left: 12%;
+    transform: translate(-5%, -5%);
+    z-index: 1;
+    width: 100%;
+    font-size: 12px;
+    line-height: 8px;
+    padding: 20px;
+}
+.selectors .step-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+.selectors .step-container .number{
+    padding: 0px;
+}
+.selectors .step-container .number .num_container{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid hsl(229, 24%, 87%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(0, 0%,  100%);
+}
+.selectors .step-container .number .num_container_active{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid hsl(229, 24%, 87%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    background-color: hsl(189, 86%, 78%);
+}
+.selectors .step-container .descript{
+    padding: 0px;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.selectors .step-container .descript #p1{
+    color: hsl(231, 11%,  63%);
+}
+.selectors .step-container .descript #p2{
+    color: hsl(0, 0%,  100%);
+} 
+
+}/*desktop view*/
+
+
+/*------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width:999px){
+
+    .sidebar_body{
+        width: 100%;
+        position:relative;
+    }
+
+    .sidebar_body #desktop-img{
+        display: none;
+    }
+
+    .sidebar_body #mobile-img{
+        width:100%;
+    }
+    
+    .selectors{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom:300px;
+        margin:auto;
+        margin-bottom: -100px;
+    }
+
+    .selectors .step-container{
+        display: flex;
+        padding: 20px;
+    }
+    .selectors .step-container .number{
+        padding: 0px;
+    }
+    .selectors .step-container .number .num_container{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1px solid hsl(229, 24%, 87%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: bold;
+        color: hsl(0, 0%,  100%);
+    }
+    .selectors .step-container .number .num_container_active{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1px solid hsl(229, 24%, 87%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000000;
+        background-color: hsl(189, 86%, 78%);
+    }
+
+    .selectors .step-container .descript{
+        display: none;
+    }
+
+}
+
+
+/*------------------------------------------------------------------*/
+
+
+@media screen and (max-width:768px) {
+
+    .selectors{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom:280px;
+        margin:auto;
+        margin-bottom: -100px;
+    }
+    
+}
+
+
+/*------------------------------------------------------------------*/
+
+
+@media screen and (max-width:600px) {
+
+    .selectors{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom:160px;
+        margin:auto;
+        margin-bottom: -100px;
+    }
+
+    .selectors .step-container .number .num_container{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid hsl(229, 24%, 87%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: bold;
+        color: hsl(0, 0%,  100%);
+    }
+    .selectors .step-container .number .num_container_active{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid hsl(229, 24%, 87%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000000;
+        background-color: hsl(189, 86%, 78%);
+    }
+
+    .selectors .step-container{
+        display: flex;
+        padding: 12px;
+    }
+    
+}

@@ -1,40 +1,144 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './App.css'
-import './Body.css'
-import Titles from './component/Title'
-import Body from './component/Body';
+import './components_css/slidearea.css'
+import './components_css/mainarea.css'
+import SlideArea from './components/SlideArea'
+import MainArea from './components/MainArea'
 
+
+type ChangeEvent = {
+  name:string,
+  email:string,
+  phone: string
+}
+
+type ChangeState = {
+  name:boolean,
+  email:boolean,
+  phone:boolean
+}
 
 function App() {
 
-  let state = {
-    labels: ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'],
+//handle input 
+const[change, setChange] = useState<ChangeEvent>({
+  name: '',
+  email: '',
+  phone: ''
+})
 
-    datasets: [
-      {
-        label: "",
-        backgroundColor: 'hsl(10, 79%, 65%)',
-        hoverBackgroundColor: 'hsl(186, 34%, 60%)',
-        pointerStyle:'line',
-        borderRadius: 8,
-        data: [17.45, 34.91, 52.36, 31.07, 23.39, 43.28, 25.48]
-      }
-    ]
+//state for handling number increment
+const[page, setPage] = useState<number>(1)
+
+//initialize required
+const[require, setRequire] = useState<boolean>(false)
+
+
+//handle empty string error
+const[empty, setEmpty] = useState<ChangeState>({
+   name:true,
+   email:true,
+   phone:true
+})
+
+
+const HandleChange = (e:React.ChangeEvent<HTMLInputElement>)=>{
+
+  if(e.target.id === 'name'){
+    setChange({...change, name:e.target.value})
+    setEmpty({...empty, name:false})
+  }else if(e.target.id === 'email'){
+    setChange({...change, email:e.target.value})
+    setEmpty({...empty, email:false})
+  }else if(e.target.id === 'phone_number'){
+    setChange({...change, phone:e.target.value})
+    setEmpty({...empty, phone:false})
   }
+
+
+  //use to reset input values back to empty state
+  if(e.target.id === 'name'){
+    if(e.target.value === ''){
+      setEmpty({...empty, name:true})
+    }
+  }else if(e.target.id === 'email'){
+    if(e.target.value === ''){
+      setEmpty({...empty, email:true})
+    }
+  }else if(e.target.id === 'phone_number'){
+    if(e.target.value === ''){
+      setEmpty({...empty, phone:true})
+    }
+  }
+
+}
+
+
+//function to handle page forward
+const HandlePageIncrement = (e:React.MouseEvent<HTMLButtonElement>)=>{
+ e.preventDefault()
+  
+
+   if(empty.name === true || empty.email === true || empty.phone === true){
+     
+   }else{
+
+    if(page <= 4){
+
+      setPage(page + 1)
+
+  } 
+   } 
+
+}
+
+const HandlePageDecrement = (e:React.MouseEvent<HTMLButtonElement>)=>{
+  e.preventDefault()
+
+    if(page > 1){
+      setPage(page - 1)
+    }
+
+}
+
+
+
 
   return (
     <div className="App">
 
-      <div className='container'>
+     <div className='contain'>
 
-         <div className="banner">
+        <form className='form_container'>
 
-           <Titles />
-           <Body state={state}/>  
+           <SlideArea pages={page} HandlePageIncrement={HandlePageIncrement} 
+           HandlePageDecrement={HandlePageDecrement}/>
+            
+           <MainArea pages={page} HandlePageIncrement={HandlePageIncrement} 
+           HandlePageDecrement={HandlePageDecrement} change={change} 
+           HandleChange={HandleChange} empty={empty}/>
 
-         </div>
+        </form>
 
-      </div>
+     </div>
+
+     <div className='buttons-div'>
+       { page > 1 ?
+           <div className='backward-btn-div'>
+             <button className='next-btn' onClick={HandlePageDecrement}>Go Back</button>
+           </div>
+           :
+           <div>
+
+           </div>
+       } 
+           <div className='forward-btn-div'>
+             <button className='next-btn' onClick={HandlePageIncrement}>
+              {page === 4 ? 'confirm' : 'Next Step'}</button>
+             
+           </div>
+
+        </div>
       
     </div>
   );

@@ -1,0 +1,92 @@
+@media only screen and (min-width:1000px){
+    .finish-contain{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .finish-contain .summary{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        background: hsl(231, 99%, 99%);
+        border-radius: 8px;
+        padding: 10px;
+    }
+    .finish-contain .summary .line1, .line2, .line3{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        margin-bottom: 20px;
+    }
+    .finish-contain .summary .line1 p{
+        color: hsl(213, 96%, 18%);
+        font-weight: bold;
+    }
+    .finish-contain .summary .line2, .line3 .desc p{
+        color:hsl(229, 24%, 87%);
+    }
+
+
+    .finish-contain .total{
+        width: 100%;
+        margin-bottom: 120px;
+        padding: 30px 10px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    .finish-contain .total .desc{
+        color: hsl(229, 24%, 87%);
+    }
+    .finish-contain .total .amount{
+        color: hsl(243, 100%, 62%);
+    }
+}
+
+
+/*---------------------------------------------*/
+
+
+@media only screen and (max-width:999px){
+
+    .finish-contain{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .finish-contain .summary{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        background: hsl(231, 99%, 99%);
+        border-radius: 8px;
+        padding: 10px;
+    }
+    .finish-contain .summary .line1, .line2, .line3{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        margin-bottom: 20px;
+    }
+    .finish-contain .summary .line1 p{
+        color: hsl(213, 96%, 18%);
+        font-weight: bold;
+    }
+    .finish-contain .summary .line2, .line3 .desc p{
+        color:hsl(229, 24%, 87%);
+    }
+
+
+    .finish-contain .total{
+        width: 100%;
+        padding: 30px 10px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    .finish-contain .total .desc{
+        color: hsl(229, 24%, 87%);
+    }
+    .finish-contain .total .amount{
+        color: hsl(243, 100%, 62%);
+    }
+
+}

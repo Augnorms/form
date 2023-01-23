@@ -1,0 +1,208 @@
+@media only screen and (min-width:1000px)
+
+{
+.input{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.input .required{
+    color: #ff0000;
+    margin-right: 5px;
+    text-align: right;
+}
+
+.input .nameDiv{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input .nameDiv .form-text{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.input .nameDiv label{
+    color: hsl(213, 96%, 18%);
+}
+
+.input .nameDiv input{
+    margin-top: 10px;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid hsl(231, 11%, 63%);
+    cursor: pointer;
+}
+
+.input .nameDiv ::-webkit-input-placeholder{
+    color: hsl(231, 11%, 63%);
+    font-weight: bold;
+} 
+
+
+.input .emailDiv{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input .emailDiv .form-text{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.input .emailDiv label{
+    color: hsl(213, 96%, 18%);
+}
+
+.input .emailDiv input{
+    margin-top: 10px;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid hsl(231, 11%, 63%);
+    cursor: pointer;
+}
+.input .emailDiv ::-webkit-input-placeholder{
+    color: hsl(231, 11%, 63%);
+    font-weight: bold;
+} 
+
+.input .phoneDiv{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input .phoneDiv .form-text{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.input .phoneDiv label{
+    color: hsl(213, 96%, 18%);
+}
+
+.input .phoneDiv input{
+    margin-top: 10px;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid hsl(231, 11%, 63%);
+    cursor: pointer;
+}
+.input .phoneDiv ::-webkit-input-placeholder{
+    color: hsl(231, 11%, 63%);
+    font-weight: bold;
+} 
+
+}/*Desktop view*/
+
+
+/*------------------------------------------------*/
+
+
+@media only screen and (max-width:999px){
+
+    .input{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .input .required{
+        color: #ff0000;
+        margin-right: 5px;
+        text-align: right;
+    }
+    
+    .input .nameDiv{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .input .nameDiv .form-text{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    .input .nameDiv label{
+        color: hsl(213, 96%, 18%);
+    }
+    
+    .input .nameDiv input{
+        margin-top: 10px;
+        padding: 12px;
+        width: 100%;
+        border-radius: 8px;
+        border: 2px solid hsl(231, 11%, 63%);
+        cursor: pointer;
+    }
+    
+    .input .nameDiv ::-webkit-input-placeholder{
+        color: hsl(231, 11%, 63%);
+        font-weight: bold;
+    } 
+    
+    
+    .input .emailDiv{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .input .emailDiv .form-text{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .input .emailDiv label{
+        color: hsl(213, 96%, 18%);
+    }
+    
+    .input .emailDiv input{
+        margin-top: 10px;
+        padding: 12px;
+        width: 100%;
+        border-radius: 8px;
+        border: 2px solid hsl(231, 11%, 63%);
+        cursor: pointer;
+    }
+    .input .emailDiv ::-webkit-input-placeholder{
+        color: hsl(231, 11%, 63%);
+        font-weight: bold;
+    } 
+    
+    .input .phoneDiv{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .input .phoneDiv .form-text{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .input .phoneDiv label{
+        color: hsl(213, 96%, 18%);
+    }
+    
+    .input .phoneDiv input{
+        margin-top: 10px;
+        padding: 12px;
+        width: 100%;
+        border-radius: 8px;
+        border: 2px solid hsl(231, 11%, 63%);
+        cursor: pointer;
+    }
+    .input .phoneDiv ::-webkit-input-placeholder{
+        color: hsl(231, 11%, 63%);
+        font-weight: bold;
+    } 
+
+}

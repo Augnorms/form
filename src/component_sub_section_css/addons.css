@@ -1,0 +1,478 @@
+@media only screen and (min-width:1000px){
+  
+
+    .addons-contain{
+        width: 100%;
+    }
+
+    .addons-contain .monthly{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .addons-contain .monthly .online{
+        padding: 10px;
+        border: 1px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        margin-bottom: 20px;
+    }
+    .addons-contain .monthly .online .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .addons-contain .monthly .online .disc{
+        line-height: 18px;
+    }
+    .addons-contain .monthly .online .disc h5{
+        color: hsl(213, 96%, 18%);
+    }
+    .addons-contain .monthly .online .disc p{
+        font-size: 14px;
+        color: hsl(231, 11%, 63%);
+    }
+
+    .addons-contain .monthly .online .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .addons-contain .monthly .online .price p{
+        font-size: 14px;
+        color: hsl(243, 100%, 62%);
+    }
+
+
+    .addons-contain .monthly .large{
+        padding: 10px;
+        border: 1px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        margin-bottom: 20px;
+    }
+    .addons-contain .monthly .large .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .addons-contain .monthly .large .disc{
+        line-height: 18px;
+    }
+    .addons-contain .monthly .large .disc h5{
+        color: hsl(213, 96%, 18%);
+    }
+    .addons-contain .monthly .large .disc p{
+        font-size: 14px;
+        color: hsl(231, 11%, 63%);
+    }
+
+    .addons-contain .monthly .large .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .addons-contain .monthly .large .price p{
+        font-size: 14px;
+        color: hsl(243, 100%, 62%);
+    }
+
+
+    .addons-contain .monthly .custom{
+        padding: 10px;
+        border: 1px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        margin-bottom: 20px;
+    }
+    .addons-contain .monthly .custom .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .addons-contain .monthly .custom .disc{
+        line-height: 18px;
+    }
+    .addons-contain .monthly .custom .disc h5{
+        color: hsl(213, 96%, 18%);
+    }
+    .addons-contain .monthly .custom .disc p{
+        font-size: 14px;
+        color: hsl(231, 11%, 63%);
+    }
+
+    .addons-contain .monthly .custom .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .addons-contain .monthly .custom .price p{
+        font-size: 14px;
+        color: hsl(243, 100%, 62%);
+    }
+
+    /*yearly styling*/
+
+    .addons-contain .yearly .online{
+        padding: 10px;
+        border: 1px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        margin-bottom: 20px;
+    }
+    .addons-contain .yearly .online .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .addons-contain .yearly .online .disc{
+        line-height: 18px;
+    }
+    .addons-contain .yearly .online .disc h5{
+        color: hsl(213, 96%, 18%);
+    }
+    .addons-contain .yearly .online .disc p{
+        font-size: 14px;
+        color: hsl(231, 11%, 63%);
+    }
+
+    .addons-contain .yearly .online .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .addons-contain .yearly .online .price p{
+        font-size: 14px;
+        color: hsl(243, 100%, 62%);
+    }
+
+
+    .addons-contain .yearly .large{
+        padding: 10px;
+        border: 1px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        margin-bottom: 20px;
+    }
+    .addons-contain .yearly .large .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .addons-contain .yearly .large .disc{
+        line-height: 18px;
+    }
+    .addons-contain .yearly .large .disc h5{
+        color: hsl(213, 96%, 18%);
+    }
+    .addons-contain .yearly .large .disc p{
+        font-size: 14px;
+        color: hsl(231, 11%, 63%);
+    }
+
+    .addons-contain .yearly .large .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .addons-contain .yearly .large .price p{
+        font-size: 14px;
+        color: hsl(243, 100%, 62%);
+    }
+
+
+    .addons-contain .yearly .custom{
+        padding: 10px;
+        border: 1px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        margin-bottom: 20px;
+    }
+    .addons-contain .yearly .custom .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .addons-contain .yearly .custom .disc{
+        line-height: 18px;
+    }
+    .addons-contain .yearly .custom .disc h5{
+        color: hsl(213, 96%, 18%);
+    }
+    .addons-contain .yearly .custom .disc p{
+        font-size: 14px;
+        color: hsl(231, 11%, 63%);
+    }
+
+    .addons-contain .yearly .custom .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .addons-contain .yearly .custom .price p{
+        font-size: 14px;
+        color: hsl(243, 100%, 62%);
+    }
+
+}
+
+
+/*---------------------------------------------------*/
+
+
+@media only screen and (max-width:999px){
+
+    .addons-contain{
+        width: 100%;
+    }
+
+    .addons-contain .monthly{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .addons-contain .monthly .online{
+        padding: 10px;
+        border: 1px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        margin-bottom: 20px;
+    }
+    .addons-contain .monthly .online .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .addons-contain .monthly .online .disc{
+        line-height: 18px;
+    }
+    .addons-contain .monthly .online .disc h5{
+        color: hsl(213, 96%, 18%);
+    }
+    .addons-contain .monthly .online .disc p{
+        font-size: 14px;
+        color: hsl(231, 11%, 63%);
+    }
+
+    .addons-contain .monthly .online .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .addons-contain .monthly .online .price p{
+        font-size: 14px;
+        color: hsl(243, 100%, 62%);
+    }
+
+
+    .addons-contain .monthly .large{
+        padding: 10px;
+        border: 1px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        margin-bottom: 20px;
+    }
+    .addons-contain .monthly .large .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .addons-contain .monthly .large .disc{
+        line-height: 18px;
+    }
+    .addons-contain .monthly .large .disc h5{
+        color: hsl(213, 96%, 18%);
+    }
+    .addons-contain .monthly .large .disc p{
+        font-size: 14px;
+        color: hsl(231, 11%, 63%);
+    }
+
+    .addons-contain .monthly .large .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .addons-contain .monthly .large .price p{
+        font-size: 14px;
+        color: hsl(243, 100%, 62%);
+    }
+
+
+    .addons-contain .monthly .custom{
+        padding: 10px;
+        border: 1px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        margin-bottom: 20px;
+    }
+    .addons-contain .monthly .custom .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .addons-contain .monthly .custom .disc{
+        line-height: 18px;
+    }
+    .addons-contain .monthly .custom .disc h5{
+        color: hsl(213, 96%, 18%);
+    }
+    .addons-contain .monthly .custom .disc p{
+        font-size: 14px;
+        color: hsl(231, 11%, 63%);
+    }
+
+    .addons-contain .monthly .custom .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .addons-contain .monthly .custom .price p{
+        font-size: 14px;
+        color: hsl(243, 100%, 62%);
+    }
+
+    /*yearly styling*/
+
+    .addons-contain .yearly .online{
+        padding: 10px;
+        border: 1px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        margin-bottom: 20px;
+    }
+    .addons-contain .yearly .online .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .addons-contain .yearly .online .disc{
+        line-height: 18px;
+    }
+    .addons-contain .yearly .online .disc h5{
+        color: hsl(213, 96%, 18%);
+    }
+    .addons-contain .yearly .online .disc p{
+        font-size: 14px;
+        color: hsl(231, 11%, 63%);
+    }
+
+    .addons-contain .yearly .online .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .addons-contain .yearly .online .price p{
+        font-size: 14px;
+        color: hsl(243, 100%, 62%);
+    }
+
+
+    .addons-contain .yearly .large{
+        padding: 10px;
+        border: 1px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        margin-bottom: 20px;
+    }
+    .addons-contain .yearly .large .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .addons-contain .yearly .large .disc{
+        line-height: 18px;
+    }
+    .addons-contain .yearly .large .disc h5{
+        color: hsl(213, 96%, 18%);
+    }
+    .addons-contain .yearly .large .disc p{
+        font-size: 14px;
+        color: hsl(231, 11%, 63%);
+    }
+
+    .addons-contain .yearly .large .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .addons-contain .yearly .large .price p{
+        font-size: 14px;
+        color: hsl(243, 100%, 62%);
+    }
+
+
+    .addons-contain .yearly .custom{
+        padding: 10px;
+        border: 1px solid hsl(231, 11%, 63%);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        margin-bottom: 20px;
+    }
+    .addons-contain .yearly .custom .check{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+ 
+    .addons-contain .yearly .custom .disc{
+        line-height: 18px;
+    }
+    .addons-contain .yearly .custom .disc h5{
+        color: hsl(213, 96%, 18%);
+    }
+    .addons-contain .yearly .custom .disc p{
+        font-size: 14px;
+        color: hsl(231, 11%, 63%);
+    }
+
+    .addons-contain .yearly .custom .price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .addons-contain .yearly .custom .price p{
+        font-size: 14px;
+        color: hsl(243, 100%, 62%);
+    }
+
+
+
+}

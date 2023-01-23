@@ -1,48 +1,143 @@
+@media only screen and (min-width:1000px)
+{
+
 *{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
 
-li{
-  list-style: none;
-}
-
-a{
-  text-decoration: none;
-}
-
-p{
-  color: hsl(28, 10%, 53%);
-}
-
-h1, h2, h3, h4, h5, h6{
-  color: hsl(25, 47%, 15%);
-}
-
 img{
-  width: 100%;
+  width:100%;
   object-fit: contain;
 }
 
+/*main body*/
 .App{
   width: 100%;
-  font-size: 18px;
-  font-family: "DM Sans", sans-serif;
-  padding: 50px 0 50px 0;
+  padding: 120px 0 120px 0;
+  background-color: #ffffff;
+  font-family: "Ubuntu";
 }
 
-.container{
+.App .buttons-div{
+  display: none;
+}
+
+
+/*second body layer*/
+.contain{
   width: 100%;
-  background-color: hsl(30, 74%, 88%);
-  padding: 120px 0 120px 0;
+  background-color: hsl(228, 100%, 84%);
+  padding: 100px 0 100px 0;
   display: flex;
   justify-content: center;
-  
+  align-items: center;
 }
 
-.banner{
-  width: 50%;
-  display: grid;
-  grid-template-columns: 1fr;
+/* container to handle the form*/
+.form_container{
+  width: 68%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+}
+
+}/*Desktop view*/
+
+
+/*------------------------------------------------------------------*/
+
+
+@media only screen and (max-width:999px){
+
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  img{
+    width:100%;
+    object-fit: contain;
+  }
+
+  .App{
+    width: 100%;
+    padding: 0 0 80px 0;
+    background-color: #ffffff;
+    font-family: "Ubuntu";
+  }
+
+  .App .buttons-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.App .buttons-div .backward-btn-div{
+    padding-top: 10px;
+    padding-left: 60px;
+}
+.App .buttons-div .backward-btn-div button{
+    width: 120px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    color: hsl(231, 11%, 63%);
+
+}
+
+.App .buttons-div .forward-btn-div{
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+    padding-right: 80px;
+}
+.App .buttons-div .forward-btn-div button{
+    width: 120px;
+    padding: 10px;
+    background-color: hsl(213, 96%, 18%);
+    cursor: pointer;
+    font-weight: bold;
+    color: hsl(231, 11%, 63%);
+    border-radius: 8px;
+}
+
+  .contain{
+    width: 100%;
+    background-color: hsl(228, 100%, 84%);
+    padding: 0 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form_container{
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: hsl(228, 100%, 84%);
+    border-radius: 8px;
+ 
+  }
+
+}
+
+
+/*-------------------------------------------------*/
+
+@media only screen and (max-width:500px){
+  .App .buttons-div .backward-btn-div{
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+  .App .buttons-div .forward-btn-div{
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
 }
