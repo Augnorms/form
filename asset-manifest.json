@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/August.github.io/form.git/static/css/main.f4fc2d75.css",
-    "main.js": "/August.github.io/form.git/static/js/main.812c4d81.js",
-    "static/js/787.abafe718.chunk.js": "/August.github.io/form.git/static/js/787.abafe718.chunk.js",
-    "index.html": "/August.github.io/form.git/index.html",
-    "main.f4fc2d75.css.map": "/August.github.io/form.git/static/css/main.f4fc2d75.css.map",
-    "main.812c4d81.js.map": "/August.github.io/form.git/static/js/main.812c4d81.js.map",
-    "787.abafe718.chunk.js.map": "/August.github.io/form.git/static/js/787.abafe718.chunk.js.map"
+    "main.css": "/form/static/css/main.f4fc2d75.css",
+    "main.js": "/form/static/js/main.0b5689a8.js",
+    "static/js/787.abafe718.chunk.js": "/form/static/js/787.abafe718.chunk.js",
+    "index.html": "/form/index.html",
+    "main.f4fc2d75.css.map": "/form/static/css/main.f4fc2d75.css.map",
+    "main.0b5689a8.js.map": "/form/static/js/main.0b5689a8.js.map",
+    "787.abafe718.chunk.js.map": "/form/static/js/787.abafe718.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4fc2d75.css",
-    "static/js/main.812c4d81.js"
+    "static/js/main.0b5689a8.js"
   ]
 }
