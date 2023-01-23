@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Augnorms/form.git/static/css/main.f4fc2d75.css",
+    "main.js": "/Augnorms/form.git/static/js/main.cac579ed.js",
+    "static/js/787.abafe718.chunk.js": "/Augnorms/form.git/static/js/787.abafe718.chunk.js",
+    "index.html": "/Augnorms/form.git/index.html",
+    "main.f4fc2d75.css.map": "/Augnorms/form.git/static/css/main.f4fc2d75.css.map",
+    "main.cac579ed.js.map": "/Augnorms/form.git/static/js/main.cac579ed.js.map",
+    "787.abafe718.chunk.js.map": "/Augnorms/form.git/static/js/787.abafe718.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4fc2d75.css",
+    "static/js/main.cac579ed.js"
+  ]
+}
